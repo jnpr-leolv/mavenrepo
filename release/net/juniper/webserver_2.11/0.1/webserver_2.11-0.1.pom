@@ -33,9 +33,24 @@
             <version>1.2.0</version>
         </dependency>
         <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-actor_2.11</artifactId>
+            <version>2.3.7</version>
+        </dependency>
+        <dependency>
             <groupId>org.specs2</groupId>
             <artifactId>specs2-core_2.11</artifactId>
             <version>2.3.11</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.scala-logging</groupId>
+            <artifactId>scala-logging_2.11</artifactId>
+            <version>3.1.0</version>
         </dependency>
         <dependency>
             <groupId>io.spray</groupId>
@@ -64,14 +79,14 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.1.2</version>
+            <groupId>net.juniper</groupId>
+            <artifactId>ui-core_2.11</artifactId>
+            <version>0.1</version>
         </dependency>
         <dependency>
-            <groupId>com.typesafe.scala-logging</groupId>
-            <artifactId>scala-logging_2.11</artifactId>
-            <version>3.1.0</version>
+            <groupId>net.juniper</groupId>
+            <artifactId>ui-base_2.11</artifactId>
+            <version>0.1</version>
         </dependency>
     </dependencies>
     <repositories>
